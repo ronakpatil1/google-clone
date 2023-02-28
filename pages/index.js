@@ -44,7 +44,7 @@ export default function Home() {
           <a href="https://about.google/products/"><ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" /></a>
 
           {/*AVATAR*/}
-          <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwjM4LHJjrj9AhWwyTgGHdruB08QPAgI"><Avatar url="https://lh3.googleusercontent.com/a/AEdFTp7jD9N8vRjQbukqLyYAcTHzoJO6Iei5Ux_AqP7deu4=s371-p-rw-no" /></a>
+          <Avatar url="https://lh3.googleusercontent.com/a/AEdFTp7jD9N8vRjQbukqLyYAcTHzoJO6Iei5Ux_AqP7deu4=s371-p-rw-no" />
         </div>
       </header>
 
