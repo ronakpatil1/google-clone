@@ -33,23 +33,23 @@ export default function Home() {
         {/*LEFT DIV*/}
         <div className="flex space-x-5 items-center">
           <p className="link">Home</p>
-          <p className="link">About</p>
+          <p className="link"><a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></p>
         </div>
         {/*RIGHT DIV*/}
         <div className="flex space-x-5 items-center">
-          <p className="link">Gmail</p>
-          <p className="link">Images</p>
+          <p className="link"><a href="https://mail.google.com/mail/?usp=installed_webapp">Gmail</a></p>
+          <p className="link"><a href="https://www.google.co.in/imghp?hl=en&ogbl">Images</a></p>
 
           {/*ICONS*/}
-          <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
+          <a href="https://about.google/products/"><ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" /></a>
 
           {/*AVATAR*/}
-          <Avatar url="https://lh3.googleusercontent.com/a/AEdFTp7jD9N8vRjQbukqLyYAcTHzoJO6Iei5Ux_AqP7deu4=s371-p-rw-no" />
+          <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwjM4LHJjrj9AhWwyTgGHdruB08QPAgI"><Avatar url="https://lh3.googleusercontent.com/a/AEdFTp7jD9N8vRjQbukqLyYAcTHzoJO6Iei5Ux_AqP7deu4=s371-p-rw-no" /></a>
         </div>
       </header>
 
       {/*BODY*/}
-      <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
+      <form className="flex flex-col items-center mt-40 flex-grow w-5/5">
         <Image
           src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           width={300}
