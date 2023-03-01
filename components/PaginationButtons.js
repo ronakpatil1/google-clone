@@ -21,8 +21,11 @@ function PaginationButtons() {
             <ChevronRightIcon className="h-5"/>
             <p>Next</p>
           </div>
+          
         </Link>
+        
     </div>
+    
   );
 }
 

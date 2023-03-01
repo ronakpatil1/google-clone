@@ -43,6 +43,14 @@ export default function Home() {
           {/*ICONS*/}
           <a href="https://about.google/products/"><ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" /></a>
 
+          <Image
+            className="rounded-full hover:scale-125"
+            src="https://lh3.googleusercontent.com/a/AEdFTp7jD9N8vRjQbukqLyYAcTHzoJO6Iei5Ux_AqP7deu4=s371-p-rw-no"
+            width={30}
+            height={30}
+            alt="example image"
+          />    
+
           {/*AVATAR*/}
           {/* <Avatar url="https://lh3.googleusercontent.com/a/AEdFTp7jD9N8vRjQbukqLyYAcTHzoJO6Iei5Ux_AqP7deu4=s371-p-rw-no" /> */}
         </div>
@@ -55,7 +63,7 @@ export default function Home() {
           width={300}
           height={100}
         />
-
+        <p className="text-sm text-gray-600">MADE BY RONAK PATIL</p>
         <div className="flex w-full mt-4 hover:shadow-lg focus-within:shadow-lg max-w-md border border-gray-200 px-5 py-3 sm:max-w-xl lg:max-w-xl rounded-full">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
           <input
