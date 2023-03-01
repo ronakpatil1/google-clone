@@ -1,0 +1,9 @@
+{
+    "build": {
+      "memory": 2048
+    },
+    "functions": {
+      "memory": 512
+    }
+  }
+  
