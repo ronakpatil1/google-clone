@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Avatar from "../components/Avatar";
+//import Avatar from "../components/Avatar";
 import { useRef } from "react";
 import { image } from "next/image";
 //import Footer from "../components/Footer";
@@ -44,7 +44,7 @@ export default function Home() {
           <a href="https://about.google/products/"><ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" /></a>
 
           {/*AVATAR*/}
-          <Avatar url="https://lh3.googleusercontent.com/a/AEdFTp7jD9N8vRjQbukqLyYAcTHzoJO6Iei5Ux_AqP7deu4=s371-p-rw-no" />
+          {/* <Avatar url="https://lh3.googleusercontent.com/a/AEdFTp7jD9N8vRjQbukqLyYAcTHzoJO6Iei5Ux_AqP7deu4=s371-p-rw-no" /> */}
         </div>
       </header>
 
